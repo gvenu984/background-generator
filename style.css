@@ -1,0 +1,44 @@
+
+@keyframes example {
+  0%   {background-color: red;}
+  25%  {background-color: yellow;}
+  50%  {background-color: blue;}
+  100% {background-color: green;}
+}
+
+body {
+	background-color: red;
+  animation-name: example;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+h1 {
+	color: tomato;
+	font-family: fantasy;
+	font-size: 3em;
+	border-bottom: 2px solid purple;
+	width: 350px;
+	text-align: center;
+	border-right: 2px solid purple;
+	box-shadow: 4px 4px 5px #888888;
+}
+
+img {
+	width: 450px;
+	height: 300px;
+	margin: 10px;
+	transition: all 1s;
+}
+
+img:hover {
+	transform: scale(1.1);
+	animation: 
+} 
+
